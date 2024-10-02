@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Check Your Balance</title>
+  <link rel="stylesheet" href="balance-styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="download-removebg-preview.png">
+</head>
+<body>
+  <header class="header">
+    <div class="navbar">
+      <div class="logo">
+        <img src="download-removebg-preview.png" alt="Bank Logo" class="bank-logo">
+        <h1>Bank of Progress</h1>
+      </div>
+      <nav class="nav-menu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <section class="balance-section">
+      <h2>Check Your Balance</h2>
+      <p>Please enter your account information to check your current balance.</p>
+
+      <form class="balance-form">
+        <div class="form-group">
+          <label for="account-number">Account Number</label>
+          <input type="text" id="account-number" name="account-number" placeholder="Enter your account number" required>
+        </div>
+
+        <div class="form-group">
+          <label for="pin">PIN</label>
+          <input type="password" id="pin" name="pin" placeholder="Enter your PIN" required>
+        </div>
+
+        <button type="submit" class="balance-btn">Check Balance</button>
+      </form>
+
+      <div id="balance-result" class="balance-result">
+        <!-- Balance information will be shown here after form submission -->
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2024 Bank of Progress. All rights reserved.</p>
+  </footer>
+
+  <script src="balance.js"></script>
+</body>
+</html>

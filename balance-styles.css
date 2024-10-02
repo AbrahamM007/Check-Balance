@@ -1,0 +1,135 @@
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  header, footer {
+    background-color: #0a2b5a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Header */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .bank-logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .nav-menu {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Main Content */
+  .main-content {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+  }
+  
+  .balance-section {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .balance-section h2 {
+    font-size: 24px;
+    color: #0a2b5a;
+  }
+  
+  .balance-section p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  input:focus {
+    border-color: #0a2b5a;
+  }
+  
+  .balance-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #0a2b5a;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .balance-btn:hover {
+    background-color: #092145;
+  }
+  
+  .balance-result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #0a2b5a;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #0a2b5a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
